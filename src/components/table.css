@@ -1,5 +1,16 @@
 
 @media only screen and (max-width: 767px) {
-    
+    .table-container{
+        overflow-x: scroll;
+    }
+    .day{
+        width: 100px;
+    }
+    .overview{
+        width: 200px;
+    }
+    .task{
+        width: 200px;
+    }
   }
   

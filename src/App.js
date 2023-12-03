@@ -212,18 +212,18 @@ const scheduleData = [
     ) }
   ],
   [
-    { day: 'Day 1', overview: 'Overview 1.0', task1: 'Task 1A', task2: 'Task 2A', task3: 'Task 3A' },
-    { day: 'Day 2', overview: 'Overview 2.0', task1: 'Task 1B', task2: 'Task 2B', task3: 'Task 3B' },
-    { day: 'Day 3', overview: 'Overview 3.0', task1: 'Task 1C', task2: 'Task 2C', task3: 'Task 3C' },
-    { day: 'Day 4', overview: 'Overview 1', task1: 'Task 1A', task2: 'Task 2A', task3: 'Task 3A' },
-    { day: 'Day 5', overview: 'Overview 2', task1: 'Task 1B', task2: 'Task 2B', task3: 'Task 3B' }
+    // { day: 'Day 1', overview: 'Overview 1.0', task1: 'Task 1A', task2: 'Task 2A', task3: 'Task 3A' },
+    // { day: 'Day 2', overview: 'Overview 2.0', task1: 'Task 1B', task2: 'Task 2B', task3: 'Task 3B' },
+    // { day: 'Day 3', overview: 'Overview 3.0', task1: 'Task 1C', task2: 'Task 2C', task3: 'Task 3C' },
+    // { day: 'Day 4', overview: 'Overview 1', task1: 'Task 1A', task2: 'Task 2A', task3: 'Task 3A' },
+    // { day: 'Day 5', overview: 'Overview 2', task1: 'Task 1B', task2: 'Task 2B', task3: 'Task 3B' }
   ],
   [
-    { day: 'Day 1', overview: 'Overview 1', task1: 'Task 1A', task2: 'Task 2A', task3: 'Task 3A' },
-    { day: 'Day 2', overview: 'Overview 2', task1: 'Task 1B', task2: 'Task 2B', task3: 'Task 3B' },
-    { day: 'Day 3', overview: 'Overview 3', task1: 'Task 1C', task2: 'Task 2C', task3: 'Task 3C' },
-    { day: 'Day 4', overview: 'Overview 1', task1: 'Task 1A', task2: 'Task 2A', task3: 'Task 3A' },
-    { day: 'Day 5', overview: 'Overview 2', task1: 'Task 1B', task2: 'Task 2B', task3: 'Task 3B' }
+    // { day: 'Day 1', overview: 'Overview 1', task1: 'Task 1A', task2: 'Task 2A', task3: 'Task 3A' },
+    // { day: 'Day 2', overview: 'Overview 2', task1: 'Task 1B', task2: 'Task 2B', task3: 'Task 3B' },
+    // { day: 'Day 3', overview: 'Overview 3', task1: 'Task 1C', task2: 'Task 2C', task3: 'Task 3C' },
+    // { day: 'Day 4', overview: 'Overview 1', task1: 'Task 1A', task2: 'Task 2A', task3: 'Task 3A' },
+    // { day: 'Day 5', overview: 'Overview 2', task1: 'Task 1B', task2: 'Task 2B', task3: 'Task 3B' }
   ]
   // Add more weeks as needed
 ];

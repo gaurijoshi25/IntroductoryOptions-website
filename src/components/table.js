@@ -1,30 +1,39 @@
 // src/components/Table.js
 import React from 'react';
+import './table.css'
 
 const Table = ({ data }) => {
   return (
+  <div className='table-container'>
     <table className="w-full border-collapse font-brick">
       <thead>
         <tr>
-          <th>Day</th>
-          <th>Brief Overview <i className="fa-solid fa-chevron-down" style={{color: 'white'}}></i></th>
-          <th>Task 1</th>
-          <th>Task 2</th>
-          <th>Task 3</th>
+        <th><div className="day">
+            Day
+          </div></th>
+          <th><div className='overview'>
+           Brief Overview 
+          </div></th>
+          <th><div className='task'>Task 1</div></th>
+          <th><div className='task'>Task 2</div></th>
+          <th><div className='task'>Task 3</div></th>
         </tr>
       </thead>
       <tbody>
         {data.map((item, index) => (
           <tr key={index} className='border-b-2 border-gray-400'>
-            <td>{item.day}</td>
-            <td>{item.overview}</td>
-            <td>{item.task1}</td>
-            <td>{item.task2}</td>
-            <td>{item.task3}</td>
+            <td><div className="day" style={{paddingBottom:'10px', paddingTop:'10px'}}>{item.day}</div></td>
+            <td><div className='overview' style={{paddingBottom:'10px', paddingTop:'10px', paddingLeft:'10px'}}>{item.overview}</div></td>
+            <td><div style={{paddingBottom:'10px', paddingTop:'10px'}}>{item.task1}</div></td>
+            <td><div style={{paddingBottom:'10px', paddingTop:'10px'}}>{item.task2}</div></td>
+            <td><div style={{paddingBottom:'10px', paddingTop:'10px'}}>{item.task3}</div></td>
           </tr>
+          
         ))}
       </tbody>
     </table>
+  </div>
+    
   );
 };
 
