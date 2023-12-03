@@ -4,6 +4,7 @@ import AccordionItem from './components/AccordionItem';
 import 'tailwindcss/tailwind.css';
 import Header from './components/header';
 
+
 const scheduleData = [
   [
     { day: 'Day 1',
@@ -243,6 +244,7 @@ const App = () => {
         
         <hr></hr>
       </div>
+      
     ))}
       </div>
     );
