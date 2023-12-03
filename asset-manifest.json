@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/IntroductoryOptions-website/static/css/main.6b15c97a.css",
+    "main.js": "/IntroductoryOptions-website/static/js/main.fe5e068e.js",
+    "index.html": "/IntroductoryOptions-website/index.html",
+    "main.6b15c97a.css.map": "/IntroductoryOptions-website/static/css/main.6b15c97a.css.map",
+    "main.fe5e068e.js.map": "/IntroductoryOptions-website/static/js/main.fe5e068e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b15c97a.css",
+    "static/js/main.fe5e068e.js"
+  ]
+}
