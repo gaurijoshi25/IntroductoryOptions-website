@@ -18,7 +18,7 @@ const scheduleData = [
           </div>
           <div>
             <a href="https://www.investopedia.com/terms/d/derivative.asp" target="_blank" rel="noopener noreferrer">
-              Blog
+              Blog: Introduction to derivatives
             </a>
           </div>
         </div>
@@ -200,7 +200,7 @@ const scheduleData = [
       <div>
         <div>
           <a href="https://www.youtube.com/watch?v=Ah9Kk6MCZ7o&list=PLX2SHiKfualFiusiT9G5uE9jU3vetvW2x&index=5" target="_blank" rel="noopener noreferrer">
-            Video: Summarizing options
+            Video: Summary
           </a>
         </div>
         <div>
