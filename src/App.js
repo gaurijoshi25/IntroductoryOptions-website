@@ -8,7 +8,7 @@ import Header from './components/header';
 const scheduleData = [
   [
     { day: 'Day 1',
-    overview: 'Overview 1',
+    overview: 'Introduction to options and it’s jargons 1',
     task1: (
         <div>
           <div>
@@ -53,7 +53,7 @@ const scheduleData = [
     ) },
 
     { day: 'Day 2',
-    overview: 'Overview 2',
+    overview: 'Introduction to call and put options',
     task1: (
         <div>
           <div>
@@ -102,7 +102,7 @@ const scheduleData = [
       </div>
     ) },
     { day: 'Day 3',
-    overview: 'Overview 1',
+    overview: 'Payoff for call options',
     task1: (
         <div>
           <div>
@@ -128,7 +128,7 @@ const scheduleData = [
     )},
 
     { day: 'Day 4',
-    overview: 'Overview 1',
+    overview: 'Payoff for put options, moneyness of option',
     task1: (
         <div>
           <div>
@@ -172,12 +172,12 @@ const scheduleData = [
       </div>
     ) },
     { day: 'Day 5',
-    overview: 'Overview 1',
+    overview: 'Summarizing week 1',
     task1: (
         <div>
           <div>
-            <a href="https://www.youtube.com/watch?v=QfvJojTymqs&list=PLu4JqTPBlGcNctJu1-LcH8OL-dG2DlYCb&index=2" target="_blank" rel="noopener noreferrer">
-              Video: What are derivatives?
+            <a href="https://www.youtube.com/watch?v=R8bsVwmVX40&list=PLu4JqTPBlGcNctJu1-LcH8OL-dG2DlYCb&index=14" target="_blank" rel="noopener noreferrer">
+              Video: Options Buying v/s selling
             </a>
           </div>
           <div>
@@ -190,13 +190,8 @@ const scheduleData = [
     task2:  (
       <div>
         <div>
-          <a href="https://www.youtube.com/watch?v=QfvJojTymqs&list=PLu4JqTPBlGcNctJu1-LcH8OL-dG2DlYCb&index=2" target="_blank" rel="noopener noreferrer">
-            Video: What are derivatives?
-          </a>
-        </div>
-        <div>
-          <a href="https://www.investopedia.com/terms/d/derivative.asp" target="_blank" rel="noopener noreferrer">
-            Blog
+          <a href="https://www.youtube.com/watch?v=pX15FfWrPR4" target="_blank" rel="noopener noreferrer">
+            Video: Buying call vs selling put option
           </a>
         </div>
       </div>
@@ -204,13 +199,13 @@ const scheduleData = [
     task3:  (
       <div>
         <div>
-          <a href="https://www.youtube.com/watch?v=QfvJojTymqs&list=PLu4JqTPBlGcNctJu1-LcH8OL-dG2DlYCb&index=2" target="_blank" rel="noopener noreferrer">
-            Video: What are derivatives?
+          <a href="https://www.youtube.com/watch?v=Ah9Kk6MCZ7o&list=PLX2SHiKfualFiusiT9G5uE9jU3vetvW2x&index=5" target="_blank" rel="noopener noreferrer">
+            Video: Summarizing options
           </a>
         </div>
         <div>
-          <a href="https://www.investopedia.com/terms/d/derivative.asp" target="_blank" rel="noopener noreferrer">
-            Blog
+          <a href="https://zerodha.com/varsity/chapter/summarizing-call-put-options/" target="_blank" rel="noopener noreferrer">
+            Blog: Options Summary
           </a>
         </div>
       </div>
