@@ -3,7 +3,7 @@ import React from 'react';
 import AccordionItem from './components/AccordionItem';
 import 'tailwindcss/tailwind.css';
 import Header from './components/header';
-
+import AddItem from './components/AccordianAdditionalitem';
 
 const scheduleData = [
   [
@@ -225,8 +225,56 @@ const scheduleData = [
     // { day: 'Day 4', overview: 'Overview 1', task1: 'Task 1A', task2: 'Task 2A', task3: 'Task 3A' },
     // { day: 'Day 5', overview: 'Overview 2', task1: 'Task 1B', task2: 'Task 2B', task3: 'Task 3B' }
   ]
+
   // Add more weeks as needed
 ];
+
+const AddData = [
+  [ {head: (
+  <div>
+    <a href="https://drive.google.com/file/d/1ZhN5sy41tEt2iJJ3IdNbvP2CVup1vNp6/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+    J.C. HULL Derivatives(Chapter 10 to 15)
+    </a>
+  </div>)},
+  {head:(
+    <div>
+      <a href="https://akunacapital.teachable.com/" target="_blank" rel="noopener noreferrer">
+      Akuna options 101
+      </a>
+    </div>) },
+    {head:(
+      <div>
+        <a href="https://drive.google.com/file/d/1ZTcvBHq6ih1RYfIrfYqOaqBeMpyApUvf/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        Paul Wilmott(Quantitative finance)
+        </a>
+      </div>) }
+
+  ],
+  [{head: (
+    <div className='flex'>
+      <a href="https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7" target="_blank" rel="noopener noreferrer">
+        Video: Basics of Python (1 to 9)
+      </a>
+    </div>)},
+    {head: (
+      <div>
+        <a href="https://www.youtube.com/watch?v=QUT1VHiLmmI&t=2487s&ab_channel=freeCodeCamp.org" target="_blank" rel="noopener noreferrer">
+          Video: Numpy Basics (till 48 mins)
+        </a>
+      </div>)},
+      {head: (
+        <div>
+          <a href="https://www.youtube.com/playlist?list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y" target="_blank" rel="noopener noreferrer">
+            Video: Pandas Basics (1 to 20)
+          </a>
+        </div>)}
+
+  ]
+
+]
+
+
+
 
 const App = () => {    
     return (
@@ -237,10 +285,13 @@ const App = () => {
         
         <AccordionItem title={`Week ${index + 1}`} data={weekData} />
         
-        <hr></hr>
       </div>
       
     ))}
+    <div>
+      <AddItem title={'Additional Resources'} data={AddData[0]} />
+      <AddItem title={'Python Resources'} data={AddData[1]} />
+    </div>
       </div>
     );
 };

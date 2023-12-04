@@ -8,7 +8,7 @@ const Table = ({ data }) => {
     <table className="w-full border-collapse font-brick">
       <thead>
         <tr>
-        <th><div className="day">
+          <th><div className="day">
             Day
           </div></th>
           <th><div className='overview'>
