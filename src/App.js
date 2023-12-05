@@ -92,7 +92,7 @@ const scheduleData = [
           </a>
         </div>
         <div className='table-data'>
-          <a href="https://www.youtube.com/watch?v=dOBDmW8kPhk&list=PLu4JqTPBlGcNctJu1-LcH8OL-dG2DlYCb&index=8" className='table-data' target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/watch?v=npjO-c4abBk" className='table-data' target="_blank" rel="noopener noreferrer">
             Video: What are Put Options
           </a>
         </div>
@@ -135,7 +135,7 @@ const scheduleData = [
         <div>
           <div className='table-data'>
             <a href="https://www.youtube.com/watch?v=FAwDrUqpGUI" className='table-data' target="_blank" rel="noopener noreferrer">
-              Video: Put Options explained.
+              Video: Payoff for put option.
             </a>
           </div>
         </div>
@@ -180,11 +180,6 @@ const scheduleData = [
           <div className='table-data'>
             <a href="https://www.youtube.com/watch?v=R8bsVwmVX40&list=PLu4JqTPBlGcNctJu1-LcH8OL-dG2DlYCb&index=14" className='table-data' target="_blank" rel="noopener noreferrer">
               Video: Options Buying v/s selling
-            </a>
-          </div>
-          <div className='table-data'>
-            <a href="https://www.investopedia.com/terms/d/derivative.asp" className='table-data' target="_blank" rel="noopener noreferrer">
-              Blog
             </a>
           </div>
         </div>
