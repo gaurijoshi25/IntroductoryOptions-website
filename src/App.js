@@ -4,6 +4,7 @@ import AccordionItem from './components/AccordionItem';
 import 'tailwindcss/tailwind.css';
 import Header from './components/header';
 import AddItem from './components/AccordianAdditionalitem';
+import Footer from './components/footer';
 
 const scheduleData = [
   [
@@ -269,6 +270,9 @@ const AddData = [
           </a>
         </div>)}
 
+  ],
+  [
+    {head:''}
   ]
 
 ]
@@ -278,20 +282,22 @@ const AddData = [
 
 const App = () => {    
     return (
-      <div className="min-h-screen bg-gray-100 p-8">
+      <div className="min-h-screen bg-gray-100 p-0 m-0">
+        <div className="min-h-screen bg-gray-100 p-8">
         <Header /> {/* Use the Header component */}
         {scheduleData.map((weekData, index) => (
-      <div key={index}>
+          <div key={index}>  
+            <AccordionItem title={`Week ${index + 1}`} data={weekData} /> 
+          </div>
+        ))}
+        <div>
+          <AddItem title={'Additional Resources'} data={AddData[0]} />
+          <AddItem title={'Python Resources'} data={AddData[1]} />
+          {/* <AddItem title={'Graded Quiz & Coding Assignments'} data={AddData[2]} /> */}
+        </div>
+        </div>
         
-        <AccordionItem title={`Week ${index + 1}`} data={weekData} />
-        
-      </div>
-      
-    ))}
-    <div>
-      <AddItem title={'Additional Resources'} data={AddData[0]} />
-      <AddItem title={'Python Resources'} data={AddData[1]} />
-    </div>
+        <Footer />
       </div>
     );
 };

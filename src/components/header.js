@@ -11,7 +11,7 @@ const Header = () => {
           <img src={logo} alt="FEC-logo" style={{width: "100%", height:'auto', objectFit:'contain'}}></img>
         </div>
         <div className="flex flex-col w-full justify-center">
-          <p className="flex ">Finance &amp; Economics Club, IIT Guwahati's</p>
+          <p className="flex font-brick">Finance &amp; Economics Club, IIT Guwahati's</p>
           <p></p>
           <span className="text-4xl">
             <div className="font-brick">Introductory Options</div>
