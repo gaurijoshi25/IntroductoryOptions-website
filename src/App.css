@@ -1,0 +1,4 @@
+.table-data :hover{
+    text-decoration: underline;
+    color: rgb(100, 77, 215);
+}
