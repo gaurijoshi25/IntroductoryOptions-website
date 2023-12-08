@@ -268,7 +268,18 @@ const AddData = [
 
   ],
   [
-    {head:''}
+    {head:(
+      <div className='flex table-data'>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJIGq4YPL1l8EJIp9zcX7lUG7_Z2zAPttuWJ6Rp2PGRNaYYA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
+          Week 1 Quiz
+        </a>
+      </div>)},
+      {head:(
+        <div className='flex table-data'>
+          <a href="https://colab.research.google.com/drive/1T9DGUlFeLxQBjQgL1d7yvqYkypZvrefU?usp=sharing" target="_blank" rel="noopener noreferrer">
+            Week 1 Coding Assignment
+          </a>
+        </div>)}
   ]
 
 ]
@@ -289,7 +300,7 @@ const App = () => {
         <div>
           <AddItem title={'Additional Resources'} data={AddData[0]} />
           <AddItem title={'Python Resources'} data={AddData[1]} />
-          {/* <AddItem title={'Graded Quiz & Coding Assignments'} data={AddData[2]} /> */}
+          <AddItem title={'Graded Quiz & Coding Assignments'} data={AddData[2]} />
         </div>
         </div>
         
