@@ -258,12 +258,7 @@ const scheduleData = [
       <div>
         <div className='table-data'>
           <a href="https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf" className='table-data' target="_blank" rel="noopener noreferrer">
-            Blog: Summary of pricing
-          </a>
-        </div>
-        <div className='table-data'>
-          <a href="https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf" className='table-data' target="_blank" rel="noopener noreferrer">
-            Blog: Models (Optional Read)
+            Blog: Summary of pricing Models (Optional Read)
           </a>
         </div>
       </div>
