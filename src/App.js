@@ -274,7 +274,7 @@ const scheduleData = [
           </div>
           <div className='table-data'>
             <a href="https://youtu.be/gZqzEF-Rlnw?feature=shared" className='table-data' target="_blank" rel="noopener noreferrer">
-              Video: Option Delta Explained
+              Video: Option Delta Explained (Optional)
             </a>
           </div>
         </div>
