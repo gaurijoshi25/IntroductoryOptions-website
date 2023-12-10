@@ -209,227 +209,204 @@ const scheduleData = [
       </div>
     ) }
   ],
-  [
-    // { day: 'Day 1',
-    // overview: 'Introduction to options and it’s jargons 1',
-    // task1: (
-    //     <div>
-    //       <div className='table-data'>
-    //         <a href="https://www.youtube.com/watch?v=QfvJojTymqs&list=PLu4JqTPBlGcNctJu1-LcH8OL-dG2DlYCb&index=2" target="_blank" rel="noopener noreferrer" >
-    //           Video: What are derivatives?
-    //         </a>
-    //       </div>
-    //       <div className='table-data'>
-    //         <a href="https://www.investopedia.com/terms/d/derivative.asp" className='table-data' target="_blank" rel="noopener noreferrer">
-    //           Blog: Introduction to derivatives
-    //         </a>
-    //       </div>
-    //     </div>
-    //   ),
-    // task2:  (
-    //   <div>
-    //     <div className='table-data'>
-    //       <a href="https://www.youtube.com/watch?v=-mO0YOTcCiQ&t=397s" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Video: Introduction to Options
-    //       </a>
-    //     </div>
-    //     <div className='table-data'>
-    //       <a href="https://www.icicidirect.com/ilearn/futures-and-options/courses/chapter-2-introduction-to-options" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Blog: Basics of options
-    //       </a>
-    //     </div>
-    //   </div>
-    // ), 
-    // task3:  (
-    //   <div>
-    //     <div className='table-data'>
-    //       <a href="https://www.youtube.com/watch?v=54GRv6-18CA&t=1s" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Video: Options Jargons
-    //       </a>
-    //     </div>
-    //     <div className='table-data'>
-    //       <a href="https://www.youtube.com/watch?v=5hnyb78_sMc" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Video: Arbitrage and Speculation
-    //       </a>
-    //     </div>
-    //   </div>
-    // ) } ,
-    // { day: 'Day 1',
-    // overview: 'Introduction to options and it’s jargons 1',
-    // task1: (
-    //     <div>
-    //       <div className='table-data'>
-    //         <a href="https://www.youtube.com/watch?v=QfvJojTymqs&list=PLu4JqTPBlGcNctJu1-LcH8OL-dG2DlYCb&index=2" target="_blank" rel="noopener noreferrer" >
-    //           Video: What are derivatives?
-    //         </a>
-    //       </div>
-    //       <div className='table-data'>
-    //         <a href="https://www.investopedia.com/terms/d/derivative.asp" className='table-data' target="_blank" rel="noopener noreferrer">
-    //           Blog: Introduction to derivatives
-    //         </a>
-    //       </div>
-    //     </div>
-    //   ),
-    // task2:  (
-    //   <div>
-    //     <div className='table-data'>
-    //       <a href="https://www.youtube.com/watch?v=-mO0YOTcCiQ&t=397s" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Video: Introduction to Options
-    //       </a>
-    //     </div>
-    //     <div className='table-data'>
-    //       <a href="https://www.icicidirect.com/ilearn/futures-and-options/courses/chapter-2-introduction-to-options" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Blog: Basics of options
-    //       </a>
-    //     </div>
-    //   </div>
-    // ), 
-    // task3:  (
-    //   <div>
-    //     <div className='table-data'>
-    //       <a href="https://www.youtube.com/watch?v=54GRv6-18CA&t=1s" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Video: Options Jargons
-    //       </a>
-    //     </div>
-    //     <div className='table-data'>
-    //       <a href="https://www.youtube.com/watch?v=5hnyb78_sMc" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Video: Arbitrage and Speculation
-    //       </a>
-    //     </div>
-    //   </div>
-    // ) },
-    // { day: 'Day 1',
-    // overview: 'Introduction to options and it’s jargons 1',
-    // task1: (
-    //     <div>
-    //       <div className='table-data'>
-    //         <a href="https://www.youtube.com/watch?v=QfvJojTymqs&list=PLu4JqTPBlGcNctJu1-LcH8OL-dG2DlYCb&index=2" target="_blank" rel="noopener noreferrer" >
-    //           Video: What are derivatives?
-    //         </a>
-    //       </div>
-    //       <div className='table-data'>
-    //         <a href="https://www.investopedia.com/terms/d/derivative.asp" className='table-data' target="_blank" rel="noopener noreferrer">
-    //           Blog: Introduction to derivatives
-    //         </a>
-    //       </div>
-    //     </div>
-    //   ),
-    // task2:  (
-    //   <div>
-    //     <div className='table-data'>
-    //       <a href="https://www.youtube.com/watch?v=-mO0YOTcCiQ&t=397s" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Video: Introduction to Options
-    //       </a>
-    //     </div>
-    //     <div className='table-data'>
-    //       <a href="https://www.icicidirect.com/ilearn/futures-and-options/courses/chapter-2-introduction-to-options" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Blog: Basics of options
-    //       </a>
-    //     </div>
-    //   </div>
-    // ), 
-    // task3:  (
-    //   <div>
-    //     <div className='table-data'>
-    //       <a href="https://www.youtube.com/watch?v=54GRv6-18CA&t=1s" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Video: Options Jargons
-    //       </a>
-    //     </div>
-    //     <div className='table-data'>
-    //       <a href="https://www.youtube.com/watch?v=5hnyb78_sMc" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Video: Arbitrage and Speculation
-    //       </a>
-    //     </div>
-    //   </div>
-    // ) },
-    // { day: 'Day 1',
-    // overview: 'Introduction to options and it’s jargons 1',
-    // task1: (
-    //     <div>
-    //       <div className='table-data'>
-    //         <a href="https://www.youtube.com/watch?v=QfvJojTymqs&list=PLu4JqTPBlGcNctJu1-LcH8OL-dG2DlYCb&index=2" target="_blank" rel="noopener noreferrer" >
-    //           Video: What are derivatives?
-    //         </a>
-    //       </div>
-    //       <div className='table-data'>
-    //         <a href="https://www.investopedia.com/terms/d/derivative.asp" className='table-data' target="_blank" rel="noopener noreferrer">
-    //           Blog: Introduction to derivatives
-    //         </a>
-    //       </div>
-    //     </div>
-    //   ),
-    // task2:  (
-    //   <div>
-    //     <div className='table-data'>
-    //       <a href="https://www.youtube.com/watch?v=-mO0YOTcCiQ&t=397s" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Video: Introduction to Options
-    //       </a>
-    //     </div>
-    //     <div className='table-data'>
-    //       <a href="https://www.icicidirect.com/ilearn/futures-and-options/courses/chapter-2-introduction-to-options" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Blog: Basics of options
-    //       </a>
-    //     </div>
-    //   </div>
-    // ), 
-    // task3:  (
-    //   <div>
-    //     <div className='table-data'>
-    //       <a href="https://www.youtube.com/watch?v=54GRv6-18CA&t=1s" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Video: Options Jargons
-    //       </a>
-    //     </div>
-    //     <div className='table-data'>
-    //       <a href="https://www.youtube.com/watch?v=5hnyb78_sMc" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Video: Arbitrage and Speculation
-    //       </a>
-    //     </div>
-    //   </div>
-    // ) },
-    // { day: 'Day 1',
-    // overview: 'Introduction to options and it’s jargons 1',
-    // task1: (
-    //     <div>
-    //       <div className='table-data'>
-    //         <a href="https://www.youtube.com/watch?v=QfvJojTymqs&list=PLu4JqTPBlGcNctJu1-LcH8OL-dG2DlYCb&index=2" target="_blank" rel="noopener noreferrer" >
-    //           Video: What are derivatives?
-    //         </a>
-    //       </div>
-    //       <div className='table-data'>
-    //         <a href="https://www.investopedia.com/terms/d/derivative.asp" className='table-data' target="_blank" rel="noopener noreferrer">
-    //           Blog: Introduction to derivatives
-    //         </a>
-    //       </div>
-    //     </div>
-    //   ),
-    // task2:  (
-    //   <div>
-    //     <div className='table-data'>
-    //       <a href="https://www.youtube.com/watch?v=-mO0YOTcCiQ&t=397s" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Video: Introduction to Options
-    //       </a>
-    //     </div>
-    //     <div className='table-data'>
-    //       <a href="https://www.icicidirect.com/ilearn/futures-and-options/courses/chapter-2-introduction-to-options" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Blog: Basics of options
-    //       </a>
-    //     </div>
-    //   </div>
-    // ), 
-    // task3:  (
-    //   <div>
-    //     <div className='table-data'>
-    //       <a href="https://www.youtube.com/watch?v=54GRv6-18CA&t=1s" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Video: Options Jargons
-    //       </a>
-    //     </div>
-    //     <div className='table-data'>
-    //       <a href="https://www.youtube.com/watch?v=5hnyb78_sMc" className='table-data' target="_blank" rel="noopener noreferrer">
-    //         Video: Arbitrage and Speculation
-    //       </a>
-    //     </div>
-    //   </div>
-    // ) }
+  [//week2
+    { day: 'Day 1',
+    overview: 'Introduction to pricing models',
+
+    task1: (
+        <div>
+          
+          <div className='table-data'>
+            <a href="https://www.youtube.com/watch?v=8GQuGmoWbzc" target="_blank" rel="noopener noreferrer" >
+              Video 1: Binomial option pricing model?
+            </a>
+          </div>
+          <div className='table-data'>
+            <a href="https://www.youtube.com/watch?v=7hL_4J5VjRw" className='table-data' target="_blank" rel="noopener noreferrer">
+              Video 2 (optional) 
+            </a>
+          </div>
+          <div className='table-data'>
+            <a href="https://www.investopedia.com/articles/investing/021215/examples-understand-binomial-option-pricing-model.asp" className='table-data' target="_blank" rel="noopener noreferrer">
+              Blog: Binomial model (optional Read)
+            </a>
+          </div>
+        </div>
+      ),
+    task2:  (
+      <div>
+          <div style={{textDecoration: 'none'}}></div>
+          <div className='table-data'>
+          
+            <a href="https://www.youtube.com/watch?v=pr-u4LCFYEY" target="_blank" rel="noopener noreferrer" >
+              Video 1: Black Scholes model
+            </a>
+          </div>
+          <div className='table-data'>
+            <a href="https://www.youtube.com/watch?v=NHvQ5CSSgw0" className='table-data' target="_blank" rel="noopener noreferrer">
+              Video 2 (optional)
+            </a>
+          </div>
+          <div className='table-data'>
+            <a href="https://www.investopedia.com/terms/b/blackscholes.asp" className='table-data' target="_blank" rel="noopener noreferrer">
+              Blog: Black Scholes model
+            </a>
+          </div>
+        </div>
+    ), 
+    task3:  (
+      <div>
+        <div className='table-data'>
+          <a href="https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf" className='table-data' target="_blank" rel="noopener noreferrer">
+            Blog: Summary of pricing
+          </a>
+        </div>
+        <div className='table-data'>
+          <a href="https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf" className='table-data' target="_blank" rel="noopener noreferrer">
+            Blog: Models (Optional Read)
+          </a>
+        </div>
+      </div>
+    ) } ,
+    { day: 'Day 2',
+    overview: 'Option greeks- delta',
+    task1: (
+        <div>
+          <div className='table-data'>
+            <a href="https://www.youtube.com/watch?v=xEoNbnFRIQk" target="_blank" rel="noopener noreferrer" >
+              Video: Option greek- Delta
+            </a>
+          </div>
+          <div className='table-data'>
+            <a href="https://youtu.be/gZqzEF-Rlnw?feature=shared" className='table-data' target="_blank" rel="noopener noreferrer">
+              Video: Option Delta Explained
+            </a>
+          </div>
+        </div>
+      ),
+    task2:  (
+      <div>
+        <div className='table-data'>
+          <a href="https://zerodha.com/varsity/chapter/the-option-greeks-delta-part-1/" className='table-data' target="_blank" rel="noopener noreferrer">
+            Blog: The Options Greek (Delta) Part #1
+          </a>
+        </div>
+        <div className='table-data'>
+          <a href="https://zerodha.com/varsity/chapter/delta-part-2/" className='table-data' target="_blank" rel="noopener noreferrer">
+          Blog: The Options Greek (Delta) Part #2
+          </a>
+        </div>
+        <div className='table-data'>
+          <a href="https://zerodha.com/varsity/chapter/delta-part-3/" className='table-data' target="_blank" rel="noopener noreferrer">
+          Blog: The Options Greek (Delta) Part #3
+          </a>
+        </div>
+      </div>
+    ) },
+    { day: 'Day 3',
+    overview: 'Option greeks- Gamma and Theta ',
+    task1: (
+        <div>
+          <div className='table-data'>
+            <a href="https://www.youtube.com/watch?v=e4AwZ-dAoQ4" target="_blank" rel="noopener noreferrer" >
+              Video: Option greek (Gamma)
+            </a>
+          </div>
+          <div className='table-data'>
+            <a href="https://zerodha.com/varsity/chapter/gamma-part-1/" className='table-data' target="_blank" rel="noopener noreferrer">
+              Blog:The Options Greek (Gamma) Part #1
+            </a>
+          </div>
+          <div className='table-data'>
+            <a href="https://zerodha.com/varsity/chapter/gamma-part-2/" className='table-data' target="_blank" rel="noopener noreferrer">
+              Blog: The Options Greek (Gamma) Part #2
+            </a>
+          </div>
+        </div>
+      ),
+    task2:  (
+      <div>
+        <div className='table-data'>
+          <a href="https://www.youtube.com/watch?v=fDLJlU8OdP8" className='table-data' target="_blank" rel="noopener noreferrer">
+            Video: Option greek (Theta)
+          </a>
+        </div>
+        <div className='table-data'>
+          <a href="https://zerodha.com/varsity/chapter/theta/" className='table-data' target="_blank" rel="noopener noreferrer">
+            Blog: Theta
+          </a>
+        </div>
+      </div>
+    )},
+    { day: 'Day 4',
+    overview: 'Introduction to volatility',
+    task1: (
+        <div>
+          <div className='table-data'>
+            <a href="https://www.investopedia.com/terms/v/volatility.asp" target="_blank" rel="noopener noreferrer" >
+              Blog: Volatility Basics Blog
+            </a>
+          </div>
+          <div className='table-data'>
+            <a href="https://www.investopedia.com/terms/i/iv.asp#:~:text=What%20Is%20Implied%20Volatility%20(IV,it%20to%20price%20options%20contracts." className='table-data' target="_blank" rel="noopener noreferrer">
+              Blog: Implied Volatility Blog
+            </a>
+          </div>
+        </div>
+      ),
+    task2:  (
+      <div>
+        <div className='table-data'>
+          <a href="https://www.youtube.com/watch?v=kMxhjVXAgZo" className='table-data' target="_blank" rel="noopener noreferrer">
+            Video: Implied Volatility, IV Rank, IV Percentile Explained
+          </a>
+        </div>
+        <div className='table-data'>
+          <a href="https://www.youtube.com/watch?v=H-NHZq-skFo" className='table-data' target="_blank" rel="noopener noreferrer">
+            Video: Implied Volatality (Optional)
+          </a>
+        </div>
+      </div>
+    ), 
+    task3:  (
+      <div>
+        <div className='table-data'>
+          <a href="https://zerodha.com/varsity/chapter/volatility-normal-distribution/" className='table-data' target="_blank" rel="noopener noreferrer">
+            Blog: Volatality and Normal distribution
+          </a>
+        </div>
+        <div className='table-data'>
+          <a href="https://zerodha.com/varsity/chapter/volatility-applications/" className='table-data' target="_blank" rel="noopener noreferrer">
+            Blog: Applications of Volatality
+          </a>
+        </div>
+      </div>
+    ) },
+    { day: 'Day 5',
+    overview: 'Option greek- Vega ',
+    task1: (
+        <div>
+          <div className='table-data'>
+            <a href="https://www.youtube.com/watch?v=Yoxz3lVq248" target="_blank" rel="noopener noreferrer" >
+              Video: Options Greek (Vega)
+            </a>
+          </div>
+          <div className='table-data'>
+            <a href="https://zerodha.com/varsity/chapter/vega/" className='table-data' target="_blank" rel="noopener noreferrer">
+              Blog: Options Greek (Vega) 
+            </a>
+          </div>
+        </div>
+      ),
+    task2:  (
+      <div>
+        <div className='table-data'>
+          <a href="https://www.youtube.com/watch?v=ReodIpHoKbY" className='table-data' target="_blank" rel="noopener noreferrer">
+            Video: Options Greek (Rho)
+          </a>
+        </div>
+      </div>
+    )}
   ],
   [
     // { day: 'Day 1', overview: 'Overview 1', task1: 'Task 1A', task2: 'Task 2A', task3: 'Task 3A' },
@@ -491,10 +468,22 @@ const AddData = [
         </a>
       </div>)},
       {head:(
-        <div className='flex table-data'>
+        <div className='flex flex-col table-data'>
+          <div>
           <a href="https://colab.research.google.com/drive/1T9DGUlFeLxQBjQgL1d7yvqYkypZvrefU?usp=sharing" target="_blank" rel="noopener noreferrer">
             Week 1 Coding Assignment
           </a>
+          </div>
+          <div>
+          <ol>
+            <li>
+              <a href="https://forms.gle/LtbcKTWyDXoVN7Kr7" target="_blank" rel="noopener noreferrer">
+              Submission Link
+              </a>
+            </li>
+          </ol>
+          </div>
+          
         </div>)}
   ]
 

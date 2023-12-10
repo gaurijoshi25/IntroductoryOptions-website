@@ -24,7 +24,7 @@ const Table = ({ data }) => {
           <tr key={index} className='border-b-2 border-gray-400'>
             <td><div className="day" style={{paddingBottom:'10px', paddingTop:'10px'}}>{item.day}</div></td>
             <td><div className='overview' style={{paddingBottom:'10px', paddingTop:'10px', paddingLeft:'10px'}}>{item.overview}</div></td>
-            <td><div className='table-data1' style={{paddingBottom:'10px', paddingTop:'10px'}}>{item.task1}</div></td>
+            <td><div className='table-data-head'><div className='table-data1' style={{paddingBottom:'10px', paddingTop:'10px'}}>{item.task1}</div></div></td>
             <td><div className='table-data1' style={{paddingBottom:'10px', paddingTop:'10px'}}>{item.task2}</div></td>
             <td><div className='table-data1' style={{paddingBottom:'10px', paddingTop:'10px'}}>{item.task3}</div></td>
           </tr>
