@@ -669,15 +669,15 @@ const AddData = [
                 Week 2 Coding Assignment
               </a>
               </div>
-              {/* <div>
+              <div>
               <ol>
                 <li>
-                  <a href="https://forms.gle/LtbcKTWyDXoVN7Kr7" target="_blank" rel="noopener noreferrer">
-                  ##Submission Link
+                  <a href="https://forms.gle/LsDUA3z8cGBRBjLTA" target="_blank" rel="noopener noreferrer">
+                  Submission Link
                   </a>
                 </li>
               </ol>
-              </div> */}
+              </div>
               
             </div>)}
   ]
