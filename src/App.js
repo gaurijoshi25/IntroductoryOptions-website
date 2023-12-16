@@ -403,12 +403,188 @@ const scheduleData = [
       </div>
     )}
   ],
-  [
-    // { day: 'Day 1', overview: 'Overview 1', task1: 'Task 1A', task2: 'Task 2A', task3: 'Task 3A' },
-    // { day: 'Day 2', overview: 'Overview 2', task1: 'Task 1B', task2: 'Task 2B', task3: 'Task 3B' },
-    // { day: 'Day 3', overview: 'Overview 3', task1: 'Task 1C', task2: 'Task 2C', task3: 'Task 3C' },
-    // { day: 'Day 4', overview: 'Overview 1', task1: 'Task 1A', task2: 'Task 2A', task3: 'Task 3A' },
-    // { day: 'Day 5', overview: 'Overview 2', task1: 'Task 1B', task2: 'Task 2B', task3: 'Task 3B' }
+  [ //WEEK3
+    { day: 'Day 1',
+    overview: 'Bullish and neutral trading strategies using spreads',
+
+    task1: (
+        <div>
+          
+          <div className='table-data'>
+            <a href="https://www.youtube.com/watch?v=aiLOf45fQco" target="_blank" rel="noopener noreferrer" >
+              Video: Bull Call Spread
+            </a>
+          </div>
+          <div className='table-data'>
+            <a href="https://zerodha.com/varsity/chapter/bull-call-spread/" className='table-data' target="_blank" rel="noopener noreferrer">
+              Blog: Bull Call Spread
+            </a>
+          </div>
+        </div>
+      ),
+    task2:  (
+      <div>
+          <div style={{textDecoration: 'none'}}></div>
+          <div className='table-data'>
+          
+            <a href="https://www.youtube.com/watch?v=K09cWfaMKHY" target="_blank" rel="noopener noreferrer" >
+              Video: Bull Put Spread
+            </a>
+          </div>
+          <div className='table-data'>
+            <a href="https://zerodha.com/varsity/chapter/bull-put-spread/" className='table-data' target="_blank" rel="noopener noreferrer">
+              Blog: Bull Put Spread
+            </a>
+          </div>
+        </div>
+    ), 
+    task3:  (
+      <div>
+        <div className='table-data'>
+          <a href="https://www.youtube.com/watch?v=IoiUt9C_I7U" className='table-data' target="_blank" rel="noopener noreferrer">
+            Video: Butterfly Spread
+          </a>
+        </div>
+        <div className='table-data'>
+          <a href="https://upstox.com/market-talk/butterfly-spread/" className='table-data' target="_blank" rel="noopener noreferrer">
+            Blog: Butterfly Spread
+          </a>
+        </div>
+      </div>
+    ) } ,
+    { day: 'Day 2',
+    overview: 'Bearish trading strategies using spreads',
+    task1: (
+        <div>
+          <div className='table-data'>
+            <a href="https://www.youtube.com/watch?v=EAXH01Zkqf4" target="_blank" rel="noopener noreferrer" >
+              Video: Bear Put Spread
+            </a>
+          </div>
+          <div className='table-data'>
+            <a href="https://zerodha.com/varsity/chapter/bear-put-spread/" className='table-data' target="_blank" rel="noopener noreferrer">
+              Blog: Bear Put Spread Blog
+            </a>
+          </div>
+        </div>
+      ),
+    task2:  (
+      <div>
+        <div className='table-data'>
+          <a href="https://www.youtube.com/watch?v=OOq5PAy6Ccg" className='table-data' target="_blank" rel="noopener noreferrer">
+            Video: Bear Call Spread
+          </a>
+        </div>
+        <div className='table-data'>
+          <a href="https://zerodha.com/varsity/chapter/bear-call-spread/" className='table-data' target="_blank" rel="noopener noreferrer">
+          Blog: Bear Call Spread
+          </a>
+        </div>
+      </div>
+    ),
+    task3:  (
+      <div>
+        <div className='table-data'>
+          <a href="https://zerodha.com/varsity/chapter/bear-call-ladder/" className='table-data' target="_blank" rel="noopener noreferrer">
+          Blog: Bear Call Ladder
+          </a>
+        </div>
+      </div>
+    ) },
+    { day: 'Day 3',
+    overview: 'Call ratio and put ratio back spread ',
+    task1: (
+        <div>
+          <div className='table-data'>
+            <a href="https://www.youtube.com/watch?v=1jmdR4BF46A" target="_blank" rel="noopener noreferrer" >
+              Video: Call Ratio Back Spread
+            </a>
+          </div>
+          <div className='table-data'>
+            <a href="https://zerodha.com/varsity/chapter/call-ratio-back-spread/" className='table-data' target="_blank" rel="noopener noreferrer">
+              Blog: Call Ratio Back Spread
+            </a>
+          </div>
+        </div>
+      ),
+    task2:  (
+      <div>
+        <div className='table-data'>
+          <a href="https://zerodha.com/varsity/chapter/put-ratio-back-spread/" className='table-data' target="_blank" rel="noopener noreferrer">
+            Blog: Put Ratio Back Spread
+          </a>
+        </div>
+      </div>
+    )},
+    { day: 'Day 4',
+    overview: 'Trading strategies using combinations',
+    task1: (
+        <div>
+          <div className='table-data'>
+            <a href="https://www.youtube.com/watch?v=VJAUd6wrXUk&list=PLfbHmXdG-214sJCZQI-Ehw7-YbGzBBjz9&index=3" target="_blank" rel="noopener noreferrer" >
+              Video: Long Straddle
+            </a>
+          </div>
+          <div className='table-data'>
+            <a href="https://zerodha.com/varsity/chapter/the-long-straddle/" className='table-data' target="_blank" rel="noopener noreferrer">
+              Blog: Long Straddle
+            </a>
+          </div>
+        </div>
+      ),
+    task2:  (
+      <div>
+        <div className='table-data'>
+          <a href="https://www.youtube.com/watch?v=kTQancDLy-Y" className='table-data' target="_blank" rel="noopener noreferrer">
+            Video: Short Straddle
+          </a>
+        </div>
+        <div className='table-data'>
+          <a href="https://zerodha.com/varsity/chapter/the-short-straddle/" className='table-data' target="_blank" rel="noopener noreferrer">
+            Blog: Short Straddle 
+          </a>
+        </div>
+      </div>
+    ), 
+    task3:  (
+      <div>
+        <div className='table-data'>
+          <a href="https://zerodha.com/varsity/chapter/the-long-short-strangle/" className='table-data' target="_blank" rel="noopener noreferrer">
+            Blog: Long and Short Straddle
+          </a>
+        </div>
+      </div>
+    ) },
+    { day: 'Day 5',
+    overview: 'Max pain theory and iron condor',
+    task1: (
+        <div>
+          <div className='table-data'>
+            <a href="https://www.youtube.com/watch?v=YMqo3uJ6YgM" target="_blank" rel="noopener noreferrer" >
+              Video: Max Pain Theory
+            </a>
+          </div>
+          <div className='table-data'>
+            <a href="https://zerodha.com/varsity/chapter/max-pain-pcr-ratio/" className='table-data' target="_blank" rel="noopener noreferrer">
+              Blog: Max Pain Theory and PCR ratio
+            </a>
+          </div>
+        </div>
+      ),
+    task2:  (
+      <div>
+        <div className='table-data'>
+          <a href="https://www.youtube.com/watch?v=W-MG-yqSe30" className='table-data' target="_blank" rel="noopener noreferrer">
+            Video: Iron Condor Strategy
+          </a>
+        </div>
+        <div className='table-data'>
+          <a href="https://zerodha.com/varsity/chapter/iron-condor/" className='table-data' target="_blank" rel="noopener noreferrer">
+            Blog: Iron Condor Strategy
+          </a>
+        </div>
+      </div>
+    )}
   ]
 
   // Add more weeks as needed
@@ -479,7 +655,31 @@ const AddData = [
           </ol>
           </div>
           
-        </div>)}
+        </div>)},
+        {head:(
+          <div className='flex table-data'>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3W3corkAZE3WXGur6MpfLXLtglWUYOTKtG-chg991ddKgsQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
+              Week 2 Quiz
+            </a>
+          </div>)},
+          {head:(
+            <div className='flex flex-col table-data'>
+              <div>
+              <a href="https://colab.research.google.com/drive/1qGJ9AqiTkZUurw89SYcSYXkrPDomlfej?usp=sharing" target="_blank" rel="noopener noreferrer">
+                Week 2 Coding Assignment
+              </a>
+              </div>
+              {/* <div>
+              <ol>
+                <li>
+                  <a href="https://forms.gle/LtbcKTWyDXoVN7Kr7" target="_blank" rel="noopener noreferrer">
+                  ##Submission Link
+                  </a>
+                </li>
+              </ol>
+              </div> */}
+              
+            </div>)}
   ]
 
 ]
