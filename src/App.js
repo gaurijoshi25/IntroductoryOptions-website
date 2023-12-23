@@ -694,7 +694,7 @@ const AddData = [
               <div>
                 
                 <a href="https://colab.research.google.com/drive/1eQ5x-ox1-DI4ND_ReT1jxCFtecAMVmvK?usp=sharing" target="_blank" rel="noopener noreferrer">
-                  Option 1 - Implementatiion of Black Scholes Model
+                  Option 1 - Implementation of Black Scholes Model
                 </a>
               </div>
               <div>
