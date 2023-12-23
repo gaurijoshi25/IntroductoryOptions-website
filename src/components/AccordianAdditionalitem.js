@@ -20,7 +20,7 @@ const AddItem = ({title,data}) => {
             {isOpen && <div className='font-brick p-4'>
                 <ol>
                     {data.map((item,index) =>(
-                        <li key={index} style={{display:'flex'}}>{index + 1}.<div className='p-1'></div> <div style={{ textDecoration: 'Underline'}}>{item.head}</div></li>
+                        <li key={index} style={{display:'flex'}}>{index + 1}.<div className='p-1 '></div> <div style={{display: 'Block'}}>{item.title}</div><div className='p-2'></div><div style={{ textDecoration: 'Underline'}}>{item.head}</div></li>
                     )
                     )}
                 </ol>

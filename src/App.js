@@ -679,7 +679,48 @@ const AddData = [
               </ol>
               </div>
               
-            </div>)}
+            </div>)},
+            {head:(
+              <div className='flex table-data'>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdn2TQkGr8glMQSRQVLdItdAvSXFOloSulbGidFiciiQm7_tA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
+                  Week 3 Quiz
+                </a>
+              </div>)},
+              {title:(
+                <h1>CODING ASSIGNMENTS:</h1>
+              ),head:(
+                <div className='flex flex-col table-data'>
+                  
+              <div>
+                
+                <a href="https://colab.research.google.com/drive/1eQ5x-ox1-DI4ND_ReT1jxCFtecAMVmvK?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  Option 1 - Implementatiion of Black Scholes Model
+                </a>
+              </div>
+              <div>
+                
+                <a href="https://github.com/finnecoiitg/Options-Course-Final-Assignment" target="_blank" rel="noopener noreferrer">
+                  Option 2 - Hedging with Bull Call Spread
+                </a>
+              </div>
+              <div>
+                
+                <a href="https://github.com/finnecoiitg/Options-Course-Final-Assignment" target="_blank" rel="noopener noreferrer">
+                  Option 3 - Hedging with Short Strangle
+                </a>
+              </div>
+              <div>
+              <ol>
+                <li>
+                  <a href="https://forms.gle/rQURnYuBQm8KRUx56" target="_blank" rel="noopener noreferrer">
+                  Submission Link
+                  </a>
+                </li>
+              </ol>
+              </div>
+              
+            </div>
+              )}
   ]
 
 ]
