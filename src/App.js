@@ -713,7 +713,7 @@ const AddData = [
               <ol>
                 <li>
                   <a href="https://forms.gle/rQURnYuBQm8KRUx56" target="_blank" rel="noopener noreferrer">
-                  Submission Link
+                  SUBMISSION LINK
                   </a>
                 </li>
               </ol>
