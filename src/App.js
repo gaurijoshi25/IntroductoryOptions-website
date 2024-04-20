@@ -7,6 +7,7 @@ import AddItem from './components/AccordianAdditionalitem';
 import Footer from './components/footer';
 import './App.css'
 import Notice from './components/notice';
+import Navbar from './components/Navbar';
 
 const scheduleData = [
   [
@@ -303,9 +304,8 @@ const scheduleData = [
     task1: (
         <div>
           <div className='table-data'>
-            <a href="https://www.youtube.com/watch?v=e4AwZ-dAoQ4" target="_blank" rel="noopener noreferrer" >
-              Video: Option greek (Gamma)
-            </a>
+            AKSHAYA
+            
           </div>
           <div className='table-data'>
             <a href="https://zerodha.com/varsity/chapter/gamma-part-1/" className='table-data' target="_blank" rel="noopener noreferrer">
@@ -732,6 +732,7 @@ const App = () => {
     return (
       <div className="min-h-screen bg-gray-100 p-0 m-0">
         <div className="min-h-screen bg-gray-100 p-8">
+          <Navbar></Navbar>
         <Header /> {/* Use the Header component */}
         <Notice />
         {scheduleData.map((weekData, index) => (
